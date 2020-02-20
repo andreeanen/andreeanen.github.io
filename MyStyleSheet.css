@@ -2,8 +2,8 @@
 }
 
 * {
-    margin: 0;
-    padding: 0;
+    margin: 10px;
+    padding: 10px;
     background-color: #A19FA4;
 }
 
@@ -15,12 +15,17 @@ p {
     font-size: 100px;
 }
 
-.boxes {
-    width: 400px;
-    height: 200px;
-    background-color: blue;
-    margin: 15px;
-    top: 50px;
-    left: 100px;
-    position: relative;
+.container{
+    display: flex;
+    flex-direction:column;
+    border: 1em solid black;
+    padding:2em;
+    overflow:auto;
+}
+
+.item {
+    flex: 1 1 auto;
+    background-color: papayawhip;
+    border: 1em solid gray;
+    padding: 0.5em 1em;
 }
