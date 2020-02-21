@@ -4,7 +4,7 @@
 * {
     margin: 10px;
     padding: 10px;
-    background-color: #A19FA4;
+    background-color: #8C8C8C;
 }
 
 p {
@@ -28,4 +28,14 @@ p {
     background-color: papayawhip;
     border: 1em solid gray;
     padding: 0.5em 1em;
+    
+}
+.header {
+    flex: 1 1 auto;
+    background-image: url("Mountains.jpg");
+    background-color: #0F1014;
+}
+
+.list{
+    flex-flow:row;
 }
