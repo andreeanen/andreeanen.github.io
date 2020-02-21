@@ -1,5 +1,5 @@
 ﻿body {
-    background-color: white;
+    background-color: #F9F9F6;
     margin: 0px;
     font-family: 'Quicksand', sans-serif;
 }
@@ -7,7 +7,7 @@
     margin: 0px;
     padding: 0px;
 }
-p {
+.header h2 {
     /*color: #56161A;*/
   
     font-weight: 100;
@@ -17,9 +17,35 @@ p {
 navlist{
     margin: 0px;
     padding:0px;
-    
 }
 
+
+.box {
+    flex: 1 1 auto;
+    background-color: #F7F5F5;
+    border: 1px solid gray;
+}
+
+
+h3 {
+    padding-top: 3.85vw;
+    padding-left: 3.85vw;
+    /*padding: 3.85vw;*/
+    color: #1B1613;
+    font-size: 3.5vh;
+    /*background-color: blue;*/
+    /*background-color: #E8E5E2;*/
+    background-color: #E1DDD8;
+}
+
+.content {
+    text-align: justify;
+    padding: 3.85vw;
+    color: #211C1B;
+    /*background-color:red;*/
+    /*background-color: #E1DDD8;*/
+    background-color: #E8E5E2;
+}
 .container {
     display: flex;
     flex-direction: column;
@@ -74,7 +100,7 @@ navlist{
 .navigation {
     width: 100%;
     background-color: #3D3A4B;
-   }
+    }
 
 #myphoto{
      width: 300px;
@@ -89,12 +115,7 @@ h1 {
     font-size: 4rem;
 }
 
-.list{
-    flex-flow:row;
-}
-button{
-    display:none;
-}
+.
 
 
 @media only screen and (max-width: 600px) {
