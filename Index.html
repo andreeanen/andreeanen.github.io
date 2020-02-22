@@ -10,53 +10,104 @@
 </head>
 <body>
     <section class="container">
-        <section class="header">
-            <div class="photo">
+        <header class="header">
+            <div class="header-text">
+                <h1 class="name">Andreea <span>Nenciu</span></h1>
+                <h2 class="profession">.NET System Developer</h2>
+               
+            </div>
+            <div class="profile-photo">
                 <img id="myphoto" src="Me.jfif" alt="Picture with myself">
             </div>
-            <div class="name">
-                <h1>Andreea Nenciu</h1>
-                <h2>I am a .NET System Developer</h2>
-            </div>
-
-        </section>
+        </header>
+    
         <nav class="navigation">
             <ul class="navlist">
                 <li>
-                    <a href="#AboutMe">About Me</a>
+                    <a href="#about-me">About Me</a>
                 </li>
                 <li>
-                    <a href="#item4">Skills</a>
+                    <a href="#skills">Skills</a>
                 </li>
                 <li>
-                    <a href="#item5">Projects</a>
+                    <a href="#contact">Contact</a>
                 </li>
             </ul>
         </nav>
 
 
-        <div id="AboutMe" class="box">
+        <section id="about-me" class="box">
             <h3>About Me</h3>
-            <div class="content">
-                At the moment I am studying to become a system developer with a specialization in .NET framework and I am also looking for an internship place or a job at a company. I enjoy both creating personal projects and being in team-based projects that develop programs or webapplications. Being well-organized and having structure in my work is very important to me and I have used these skills in my previous jobs.
-                <br><br />Contact me if you need a driven, responsible, sociable person in your company, ready to influence the IT world.
+            <div class="content flex-model">
+                <div>
+                   At the moment I am studying to become a system developer with a specialization in C# and .NET framework.<br>
+                   I enjoy both creating personal projects and being in team-based projects that develop programs or webapplications.<br>
+                   You can take a look at my GitHub portfolio.
+                </div>
+                <div>
+                    <a href="https://github.com/andreeanen">
+                        <img src="github.png" alt="GitHubLogo" class="icon">
+                    </a>
+                </div>
             </div>
-        </div>
-        <div id="Skills" class="box">
+        </section>
+
+        <section id="skills" class="box">
             <h3>Skills</h3>
             <div class="content">
-               <br>C#
-               <br>.NET Framework
-               <br> Microsoft SQL Server
+               <ul >
+                   <li class="skills-category">Programming</li>
+                   <li>C#</li>
+                   <li>.NET Core</li>
+                   <li class="skills-category">Development</li>
+                   <li>HTML</li>
+                   <li>CSS</li>
+                   <li class="skills-category">Database</li>
+                   <li>SQL</li>
+                   <li>MongoDB</li>
+                   <li>Azure CosmosDB</li>
+                   <li class="skills-category">Version Control</li>
+                   <li>Git</li>
+               </ul>
             </div>
-        </div>
+        </section>
        
-        
-
-
-        <div id="item2" class="item">2</div>
-        <div id="item4" class="item">4."Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</div>
-        <div id="item5" class="item">5</div>
+        <footer class="box">
+            <div id="contact">
+                <h3>Contact</h3>
+                <div class="content flex-model">
+                    <div>
+                        <div>Contact me if you need a driven, responsible, sociable person in your company. 
+                        <br />I am ready to influence the IT world!<br /><br />
+                        </div>
+                        <div>
+                            E-mail: andreea.ioana.nenciu@gmail.com
+                        </div>
+                        <div>
+                            Phone: 0765773558 <br>
+                        </div>
+                    </div>
+                    <div class="flex-model">
+                        <div>
+                            <a href="https://www.linkedin.com/in/andreea-nenciu-506006a8/">
+                                <img src="linkedin.png" alt="LinkedInLogo" class="icon">
+                            </a>
+                        </div>
+                        <div>
+                            <a href="https://www.instagram.com/andreeanen/">
+                                <img src="instagram.png" alt="InstagramLogo" class="icon">
+                            </a>
+                        </div>
+                        <div>
+                            <a href="https://www.facebook.com/andreeanen">
+                                <img src="facebook.png" alt="FacebookLogo" class="icon">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </footer>
     </section>
 </body>
 </html>

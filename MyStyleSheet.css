@@ -7,50 +7,47 @@
     margin: 0px;
     padding: 0px;
 }
-.header h2 {
-    /*color: #56161A;*/
-  
-    font-weight: 100;
-    font-size: 40px;
-}
-
-navlist{
-    margin: 0px;
-    padding:0px;
-}
-
 
 .box {
     flex: 1 1 auto;
     background-color: #F7F5F5;
-    border: 1px solid gray;
+    border-bottom: 1px solid #d4d4d4;
 }
 
 
 h3 {
-    padding-top: 3.85vw;
-    padding-left: 3.85vw;
-    /*padding: 3.85vw;*/
+    padding: 4vh 4vw;
     color: #1B1613;
-    font-size: 3.5vh;
-    /*background-color: blue;*/
-    /*background-color: #E8E5E2;*/
-    background-color: #E1DDD8;
+    background-color: #DCD1D5;
+}
+
+.navlist, h3 {
+    font-size: 2rem;
 }
 
 .content {
     text-align: justify;
-    padding: 3.85vw;
     color: #211C1B;
-    /*background-color:red;*/
-    /*background-color: #E1DDD8;*/
-    background-color: #E8E5E2;
+    padding: 3.85vw;
+    background-color: #F6F3F4;
+    font-size: 1.1rem;
+    font-weight: 500;
 }
 .container {
     display: flex;
     flex-direction: column;
-    padding: 1em;
+    padding: 2em;
     overflow: auto;
+}
+.icon{
+    width:76px;
+    height:76px;
+}
+
+.flex-model {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .item {
@@ -61,33 +58,25 @@ h3 {
     
 }
 .header {
-    /*background-image: url("Clouds.png");
-    background-size:cover;*/
     background-color: #32303E;
     display: flex;
-    color: #CAC9CD;
-    height: 25rem;
-   }
-
-.name {
-    margin: 3em 25em 0em 1em;
-    
-    /*float:left*/
+    color: #F8F6F8;
+    align-content: center;
+}
+.header-text{
+    padding-left:4vw;
+    margin:auto 0;
 }
 
-.photo {
-    /*margin-left:25em;
-    margin-right:1em;*/
-    margin: 2em 1em 0em 25em;
-    
+.navlist {
+    display: flex;
+    margin: 1rem 0;
+    padding: 0px;
+    list-style-type: none;
 }
 
 .navlist li {
-    list-style-type: none;
-    display: inline;
     margin: 0 4vw;
-    font-size: 3.5vh;
-    
 }
 .navlist a {
     text-decoration: none;
@@ -102,47 +91,68 @@ h3 {
     background-color: #3D3A4B;
     }
 
-#myphoto{
-     width: 300px;
-     height: 300px;
-     border-radius:50%;
-     /*float:right;*/
+#myphoto {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
 }
-h1 {
-    /*color: #3C3A33;*/
-    font-family: 'Quicksand', sans-serif;
-    font-weight: 400;
-    font-size: 4rem;
+.profile-photo {
+    margin: 1rem auto;
+}
+.name {
+    font-weight: 300;
+    font-size: 5rem;
 }
 
-.
+.skills-category {
+    list-style: none;
+    font-weight: 700;
+    margin-left: -18px;
+    margin-bottom: 0.5rem;
+    margin-top: 0.5rem;
+    font-size: 1.2rem;
+}
+#skills > .content > ul {
+    margin-left: 20px;
+}
+
+.name>span{
+    font-weight:500;
+}
+.profession {
+    font-size: 2rem;
+    font-weight: 100;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
 
 
 @media only screen and (max-width: 600px) {
-    .header {
-        display: flex;
-        flex-flow: row;
-        overflow: auto;
+    .header{
+        flex-flow: column;
+        flex-direction:column-reverse;
     }
-
-    .test {
-        order: 1;
+    .container{
+        padding:0;
     }
-
-    .name {
-        order: 2;
-    }
-
     .navlist{
-        display:flex;
+        flex-direction: column;
+        margin: 1rem 0;
+    }
+    .content, .profession{
+        font-size: 1rem;
+    }
+    .name{
+        font-size:2rem;
+    }
+    .navlist, h3 {
+        font-size: 1.5rem;
+    }
+    .flex-model{
         flex-direction:column;
     }
-
-    .navlist li{
-        margin:0;
-    }
-
-    .navlist a{
-        display:block;
+    #skills>.content>ul{
+        margin-left: 20px;
     }
 }
