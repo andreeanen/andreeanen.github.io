@@ -64,6 +64,7 @@ h3 {
     display: flex;
     color: #F8F6F8;
     align-content: center;
+    /*background-color: #2e1114;*/
 }
 
 .header-text {
@@ -93,6 +94,7 @@ h3 {
 .navigation {
     width: 100%;
     background-color: #3D3A4B;
+    /*background-color: #501b1d;*/
 }
 
 #myphoto {
