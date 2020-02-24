@@ -192,4 +192,8 @@ h3 {
     #skills>.content>ul {
         margin-left: 20px;
     }
+
+    .tooltip:hover .tooltiptext {
+        visibility:hidden;
+    }
 }
